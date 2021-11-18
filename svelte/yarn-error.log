@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\laryh\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @rollup/plugin-json
+
+PATH: 
+  C:\Users\laryh\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\laryh\cmder\vendor\conemu-maximus5;C:\Users\laryh\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\laryh\AppData\Local\Microsoft\WindowsApps;C:\Users\laryh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laryh\AppData\Roaming\npm;C:\Users\laryh\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\xampp\mysql\bin;C:\Program Files\PostgreSQL\13\bin;C:\Users\laryh\AppData\Local\atom\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\laryh\cmder\vendor\bin;C:\Users\laryh\cmder
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+
+npm manifest: 
+  {
+    "name": "svelte-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+      "start": "sirv public --no-clear"
+    },
+    "devDependencies": {
+      "@rollup/plugin-commonjs": "^17.0.0",
+      "@rollup/plugin-node-resolve": "^11.0.0",
+      "rollup": "^2.3.4",
+      "rollup-plugin-css-only": "^3.1.0",
+      "rollup-plugin-livereload": "^2.0.0",
+      "rollup-plugin-svelte": "^7.0.0",
+      "rollup-plugin-terser": "^7.0.0",
+      "svelte": "^3.0.0"
+    },
+    "dependencies": {
+      "sirv-cli": "^1.0.0",
+      "svelte-web3": "^2.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
