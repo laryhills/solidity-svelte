@@ -1,4 +1,4 @@
-const Hello = artifacts.require("Hello");
+const Hello = artifacts.require("Hello"); // name of contract not solidity file
 
 /*
  * uncomment accounts to access the test accounts made available by the
@@ -33,7 +33,7 @@ contract("Hello", function (accounts) {
         const expected = accounts[0];
         assert.equal(result, expected, "owner is accounts[0]");
       */
-      assert(result, "this is current owner"); // gets back the oenwe
+      assert(result, "this is current owner"); // gets back the owner
     });
     // it should return owner address
     it("should return owner's address", async () => {
